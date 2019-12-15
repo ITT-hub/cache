@@ -1,0 +1,22 @@
+{
+  "name": "it-tech/cache",
+  "description": "Database Library",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Pokatsky",
+      "email": "weabdizain@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "ITTech\\Lib\\": "./"
+    }
+  }
+}
