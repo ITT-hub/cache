@@ -33,6 +33,11 @@ class Cache
     {
         $file = $this->path."/".md5($key);
 
+        if(!file_exists($file))
+        {
+            return false;
+        }
+
         ob_start();
         include $file;
         $str = ob_get_contents();
