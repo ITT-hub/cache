@@ -1,6 +1,6 @@
 {
   "name": "it-tech/cache",
-  "description": "Database Library",
+  "description": "Library for working with cache",
   "type": "library",
   "license": "MIT",
   "authors": [
